@@ -1,5 +1,5 @@
 # Django - tutorial
-
+ 
 ## Installation
 
 You can find detailed instructions from the Django documentation: [Installation Guide](https://docs.djangoproject.com/en/4.1/topics/install/)
