@@ -14,7 +14,7 @@ flowchart
     djangoapi-->backend
     ui-->backend
     backend-->db
-    backend --> oauth[OAuth API\n___________\nGoogle OAuth]
+    backend --> oauth[Authentication API\n___________\nGoogle OAuth]
 ```
 
 ## Overview
