@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart
-    subgraph frontend
+    subgraph Frontend
         ui[UI\n_______\nReact\nSPA\nMaterial UI]
     end
     djangoapi[API\n_____________________\nDjango REST framework]
