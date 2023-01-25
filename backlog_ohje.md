@@ -36,9 +36,16 @@ User storyt pilkotaan pienempiin taskeihin, joiden avulla toteutetaan user story
 
 #### Label, tehtävän tekijä(t) ja Taskin linkittäminen sprint backlogin user storyyn
 
+- Assignees: tästä saa listasta valittua tehtävän tekijät (voi valita useampia)
+- Convert to issue: tee tehtävästä issue 
+- Taskin linkittäminen sprintin backlogin storyyn : GitHub tunnistaa automaattisesti backlogin user storyt. Klikkaa tehtävän kuvauksen edit-nappia (ei otsikon), ja kirjoita esimerkiksi "related to user story #1". User storyn numeron voit tarkistaa sarakkeesta "Sprint backlog (user stories)".
 
 #### Tehtävien filteröinti
 
 Saat näkyviin task boardille vain sinulle määrätyt tehtävät klikkaamalla kuvakettasi missä tahansa taskissa. Klikkaamalla sitä uudestaan näet taas kaikkien taskit. 
+
+#### Tehtävän sulkeminen
+
+Kun tehtävä on suoritettu, muista sulkea issue! (HUOM! Älä sulje user storyja, ne tehdään vasta kun user storyn cceptance criteria on täyttynyt
 
 
