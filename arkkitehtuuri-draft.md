@@ -4,10 +4,14 @@
 flowchart
     subgraph Server: HetznerVPS
         subgraph Container: Docker
-            ui[UI\n_______\nReact\nSPA\nMaterial UI]
+            subgraph frontend
+                ui[UI\n_______\nReact\nSPA\nMaterial UI]
+            end
             djangoapi[API\n_____________________\nDjango REST framework]
-            backend[Backend\n____\nModel from Django MVT]
-            db[Database\n______\nPostgreSQL]
+            subgraph Backend
+                backend[Application Logic\n____\nDjango web framework]
+                db[Database\n______\nPostgreSQL]
+            end
             ui-->djangoapi
             djangoapi-->backend
             ui-->backend
@@ -37,7 +41,7 @@ flowchart
 
 - API: Django REST framework
 
-**Backend**
+**Django**
 
 - Django: Python web framework
   - Implement Model from Django MVT
@@ -56,7 +60,15 @@ flowchart
 - consult/name
 - certs/?certification=cert1,cert2, cert3
 - skills/?skill=skill1,skill2,skill3
-- startdate/
+- project-startdate/
+- allocation/
+
+Questions:
+
+- What if client wants to filter consults with
+  - certain certifications
+  - certain skills
+  - certain allocation
 
 Other notes
 
