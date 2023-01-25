@@ -16,7 +16,7 @@ User storyn lisääminen product backlogiin:<br>
 
 Löytyy Projects-välilehdeltä [Projects-välilehdeltä](https://github.com/orgs/Cast2023/projects/2/views/1?layout=board). Jokaiselle sprintille oma taskboard. 
 
-### User storyn lisääminen taskboardille
+### User storyn lisääminen task boardille
 
 Sprintille otettavat <b>user storyt</b> lisätään kolumniin Sprint backlog (user stories). Ne voi lisätä seuraavasti:
 <br>
@@ -24,16 +24,18 @@ Sprintille otettavat <b>user storyt</b> lisätään kolumniin Sprint backlog (us
 
 - kirjoita riville # ja valitse cast. Saat automaattisesti listan kaikista sprint backlogin user storyista. Voit myös hakea issuen numerolla.
 
-Userstoryt pilkotaan taskeihin ja overheadeihin. <br>
+### Tehtävien lisääminen task boardille
 
-<b>Task:</b> palaset mitkä toteuttavat user storyja
+User storyt pilkotaan pienempiin taskeihin, joiden avulla toteutetaan user storya. Lisäksi task boardilta löytyy scrum-töitä ja overheadeja. Overhead-tehtävät ovat töitä, jotka eivät liity  mihinkään tiettyyn user storyyn mutta pitää silti tehdä (esim. dockerin confaus, tietokantarakenteen suunnittelu tms). Scrum-työt ovat scrum masterin töitä sprintin aikana. Näin scrum master voi erotella scrum-työt muista sprintin töistään.
 
-<b>Spike:</b> ei liity mihinkään tiettyyn user storyyn mutta pitää silti tehdä (kuten scrummarihommat ":D")
+#### Tehtävän luominen
+
+#### Label
+
+#### Taskin linkittäminen sprint backlogin user storyyn
+
+#### Tehtävien filteröinti
+
+Saat näkyviin task boardille vain sinulle määrätyt tehtävät klikkaamalla kuvakettasi missä tahansa taskissa. Klikkaamalla sitä uudestaan näet taas kaikkien taskit. 
 
 
-Tasks and spikes:
-Column To Do
-> + add item
-> kirjoita otsikko + ENTER
-
-Label task OR overhead
