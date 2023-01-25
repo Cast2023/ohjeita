@@ -30,9 +30,12 @@ User storyt pilkotaan pienempiin taskeihin, joiden avulla toteutetaan user story
 
 #### Tehtävän luominen
 
-#### Label
+- Paina To Do -sarakkeen alalaidasta "Add item"
+- Kirjoita kuvaava nimi tehtävälle. Jos kyseessä on task, kirjoita nimen alkuun # ja user storyn numero (esim "#1 implementing GoogleOAuth endpoint")
+- Nyt taskisi löytyy To Do -rivistä, mutta vielä luonnosversiona.
 
-#### Taskin linkittäminen sprint backlogin user storyyn
+#### Label, tehtävän tekijä(t) ja Taskin linkittäminen sprint backlogin user storyyn
+
 
 #### Tehtävien filteröinti
 
