@@ -1,10 +1,7 @@
 # Application Architecture
 
-## Overview
-
 ```mermaid
 flowchart
-
     subgraph Server: HetznerVPS
         subgraph Container: Docker
             ui[UI\n_______\nReact\nSPA\nMaterial UI]
@@ -20,15 +17,40 @@ flowchart
     backend --> oauth[OAuth API\n___________\nGoogle OAuth]
 ```
 
-## Notes
+## Overview
 
-React
+**Server**
 
-- Single Page Application
-- Material UI
+- Hetzner VPS
 
-REST-API
-An initial proposal for API-routes:
+**Container**
+
+- Docker container
+
+**UI**
+
+- React Application
+  - Single Page Application design style
+  - Material UI: React Component library for styling web content
+
+**API**
+
+- API: Django REST framework
+
+**Backend**
+
+- Django: Python web framework
+  - Implement Model from Django MVT
+
+**Database**
+
+- PostgreSQL
+
+**Authentication (OAuth)**
+
+- Google OAuth: OAuth 2.0 protocol
+
+## Initial proposal for API-routes
 
 - all/
 - consult/name
