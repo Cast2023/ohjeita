@@ -2,34 +2,22 @@
 
 ```mermaid
 flowchart
-    subgraph Server: HetznerVPS
-        subgraph Container: Docker
-            subgraph frontend
-                ui[UI\n_______\nReact\nSPA\nMaterial UI]
-            end
-            djangoapi[API\n_____________________\nDjango REST framework]
-            subgraph Backend
-                backend[Application Logic\n____\nDjango web framework]
-                db[Database\n______\nPostgreSQL]
-            end
-            ui-->djangoapi
-            djangoapi-->backend
-            ui-->backend
-            backend-->db
-        end
+    subgraph frontend
+        ui[UI\n_______\nReact\nSPA\nMaterial UI]
     end
+    djangoapi[API\n_____________________\nDjango REST framework]
+    subgraph Backend
+        backend[Application Logic\n____\nDjango web framework]
+        db[Database\n______\nPostgreSQL]
+    end
+    ui-->djangoapi
+    djangoapi-->backend
+    ui-->backend
+    backend-->db
     backend --> oauth[OAuth API\n___________\nGoogle OAuth]
 ```
 
 ## Overview
-
-**Server**
-
-- Hetzner VPS
-
-**Container**
-
-- Docker container
 
 **UI**
 
