@@ -65,7 +65,7 @@ flowchart
 
 Questions:
 
-- What if client wants to filter consults with
+- What if client wants to filter consults with?
   - certain certifications
   - certain skills
   - certain allocation
