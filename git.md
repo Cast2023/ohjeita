@@ -19,7 +19,7 @@ Yleensä haarat ovat
 
 	- master  
 	- development  
-  - feature_name_y  
+  	- feature_name_y  
 	- feature_name_x  
 
 Jos nyt `feature_name_x` ominaisuudet on hoidettu ja nyt halutaan yhdistää `feature_name_x` haara `development` haaralle.
